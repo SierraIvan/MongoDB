@@ -1,0 +1,17 @@
+use("users")
+
+db.users.find()
+
+//db.users.updateOne({ name: { $eq: "Alice" } }, { $push: { favoriteGames: "Minecraft" } })
+
+//db.users.updateOne({ name: "Alice" },{ $pull: { favoriteGames: "Fortnite" } })
+
+//db.users.updateOne({ name: "Bob" }, { $pull: { favoriteGames: "League of Legends" } }, { $push: { favoriteGames: "Dota2" } })
+
+//db.users.updateOne({ name: "Charlie" }, { $push: { favoriteGames: { $each: ["Apex Legends", "Rocket League"] } } })
+
+//db.users.updateMany({}, { $pull: { favoriteGames: "Minecraft" } })
+
+//db.users.updateOne({ name: "Charlie" }, { $pull: { favoriteGames: { $in: ["Counter-Strike", "Valorant"] } } })
+
+

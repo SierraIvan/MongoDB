@@ -1,0 +1,13 @@
+use('articulos')
+
+//db.articulos.find({})
+
+//db.articulos.find({ rubro: { $nin: ["impresora"] } })
+
+//db.articulos.find({ rubro: { $in: ["mouse"] } })
+
+//db.articulos.find({ precio: { $gte: 5000 } })
+
+//db.articulos.find({ $and: [{ rubro: "impresora" }, { precio: { $gte: 3500 } }] })
+
+//db.articulos.find({ stock: { $gte: 0, $lte: 4 } })

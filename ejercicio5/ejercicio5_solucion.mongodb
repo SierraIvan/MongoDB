@@ -1,0 +1,11 @@
+use('articulos')
+
+db.articulos.find({})
+
+//db.articulos.updateOne({ nombre: 'LOGITECH M90' }, { $set: { precio: 1 } })
+
+//db.articulos.updateOne({ _id: {$eq : 6} }, { $set: { stock: 0 } })
+
+//db.articulos.updateOne({ _id: 6 }, { $set: { proveedores: ['Martinez', 'Gutierrez'] } })
+
+//db.articulos.updateOne({ _id: 6 }, { $unset: { proveedores: "" } })

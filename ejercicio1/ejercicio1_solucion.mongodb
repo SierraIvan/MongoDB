@@ -1,0 +1,8 @@
+use('personas')
+
+db.personas.find({})
+
+db.personas.drop({ curso: 'TECO', })
+
+db.personas.drop({})
+

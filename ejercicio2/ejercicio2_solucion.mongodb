@@ -1,0 +1,12 @@
+use('libros_v1')
+
+//db.libros_v1.find({ precio: { $gt: 40 } })
+
+//db.libros_v1.find({ cantidad: { $gte: 50 } })
+
+//db.libros_v1.find({ cantidad: { $ne: 50 } })
+
+//db.libros_v1.find({ precio: { $gte: 20, $lte: 45 } })
+
+
+db.libros_v1.find({ editorial: { $in: ["Planeta"] } })

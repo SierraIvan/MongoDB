@@ -1,0 +1,16 @@
+use('users')
+
+db.users.insertMany([
+    {
+        name: "Alice",
+        favoriteGames: ["Minecraft", "Fortnite"]
+    },
+    {
+        name: "Bob",
+        favoriteGames: ["League of Legends", "Overwatch"]
+    },
+    {
+        name: "Charlie",
+        favoriteGames: ["Counter-Strike", "Valorant"]
+    }
+]);
