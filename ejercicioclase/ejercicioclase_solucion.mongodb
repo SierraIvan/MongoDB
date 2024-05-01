@@ -2,7 +2,7 @@ use("users")
 
 db.users.find()
 
-//db.users.updateOne({ name: { $eq: "Alice" } }, { $push: { favoriteGames: "Minecraft" } })
+//db.users.updateOne({ name: { $eq: "Alice" } }, { $push: { favoriteGames: "Among Us" } })
 
 //db.users.updateOne({ name: "Alice" },{ $pull: { favoriteGames: "Fortnite" } })
 

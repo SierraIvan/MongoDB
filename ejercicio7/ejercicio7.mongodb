@@ -1,0 +1,87 @@
+use("series")
+
+db.series.drop()
+
+db.series.insertMany([
+    {
+        _id: 1,
+        titulo: 'The big bang theory',
+        productor: 'Chuck Lorre',
+        actores: ['Johnny Galecki', 'Jim Parsons', 'Kaley Cuoco', 'Kunal Nayyar', 'Simon Helberg', 'Mayim Bialik', 'Melissa Rauch'],
+        temporada1: [
+            {
+                capitulo1: {
+                    titulo: 'Piloto',
+                    audiencia: 8300000
+                }
+            },
+            {
+                capitulo2: {
+                    titulo: 'La hipótesis del Gran Cerebro',
+                    audiencia: 8700000
+                },
+            },
+            {
+                capitulo3: {
+                    titulo: 'El Corolario de el Gato con Botas',
+                    audiencia: 9200000
+                }
+            }
+        ],
+        temporada2: [
+            {
+                capitulo1: {
+                    titulo: 'El paradigma del pescado malo',
+                    audiencia: 10000000
+                }
+            },
+            {
+                capitulo2: {
+                    titulo: 'La topología de la bragueta',
+                    audiencia: 11000000
+                }
+            }
+        ]
+    }
+    ,
+    {
+        _id: 2,
+        titulo: 'The Walking Dead',
+        productor: 'Robert Kirkman',
+        actores: ['Andrew Lincoln', 'Jon Bernthal', 'Sarah Wayne Callies', 'Laurie Holden', 'Jeffrey DeMunn', 'Steven Yeun'],
+        temporada1: [
+            {
+                capitulo1: {
+                    titulo: 'TS 19',
+                    audiencia: 7000000
+                }
+            },
+            {
+                capitulo2: {
+                    titulo: 'Wildfire',
+                    audiencia: 8200000
+                }
+            },
+            {
+                capitulo3: {
+                    titulo: 'Díselo a las ranas',
+                    audiencia: 9100000
+                }
+            }
+        ],
+        temporada2: [
+            {
+                capitulo1: {
+                    titulo: 'Lo que queda por delante',
+                    audiencia: 12000000
+                }
+            },
+            {
+                capitulo2: {
+                    titulo: 'Sangría',
+                    audiencia: 13000000
+                }
+            }
+        ]
+    }
+])
