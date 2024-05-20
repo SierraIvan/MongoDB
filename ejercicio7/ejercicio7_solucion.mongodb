@@ -1,7 +1,8 @@
 use("series")
 
 db.series.find()
-/*db.series.find({titulo: "The big bang theory"}, {'temporada1' : 1, 'temporada2' : 1})*/
+
+//db.series.find({ titulo: "The big bang theory" }, { 'temporada1': 1, 'temporada2': 1 })
 
 //db.series.find({ titulo: "The big bang theory" }, { temporada1: 1 })
 

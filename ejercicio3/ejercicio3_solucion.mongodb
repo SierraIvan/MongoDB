@@ -10,4 +10,4 @@ use('articulos')
 
 //db.articulos.find({ $and: [{ rubro: "impresora" }, { precio: { $gte: 3500 } }] })
 
-//db.articulos.find({ stock: { $gte: 0, $lte: 4 } })
+//db.articulos.find({ stock: { $gte: 0, $lte: 4 } })z

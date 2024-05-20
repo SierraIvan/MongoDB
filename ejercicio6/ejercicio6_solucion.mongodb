@@ -6,4 +6,4 @@ db.libros_v2.find()
 
 //db.libros_v2.find({ "autor.nombre": "Borges" })
 
-//db.libros_v2.find({ "autor.nacionalidad": "Española", precio: { $gte: 50 } })
+//db.libros_v2.find({ "autor.nacionalidad": "Española", precio: { $gte: 50 } }) 

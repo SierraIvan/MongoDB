@@ -1,0 +1,10 @@
+use('alumnos')
+
+//db.alumnos.find()
+
+//db.alumnos.find({}, { apellido: 1, fechanacimiento: 1 })
+
+//db.alumnos.find().sort({ fechanacimiento: -1 })//-1 descencente
+
+//db.alumnos.find({ fechanacimiento: { $gte: new Date(1970, 0, 1) } })
+
